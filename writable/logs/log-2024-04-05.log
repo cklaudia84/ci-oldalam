@@ -1,0 +1,67 @@
+CRITICAL - 2024-04-05 05:54:05 --> ErrorException: Undefined variable: error
+in APPPATH\Views\contact-form.php on line 3.
+ 1 APPPATH\Views\contact-form.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Program Files\\Ampps\\www\\ci-oldalam\\app\\Views\\contact-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Contact.php(13): view()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-05 06:01:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contactcontent.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\contact-form.php(8): view()
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\Program Files\\Ampps\\www\\ci-oldalam\\app\\Views\\contact-form.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Contact.php(40): view()
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Contact->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-05 14:13:04 --> Error connecting to the database: mysqli_sql_exception: Nem hozható létre kapcsolat, mert a célszámítógép már visszautasította a kapcsolatot.
+ in C:\Program Files\Ampps\www\ci-oldalam\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Program Files\Ampps\www\ci-oldalam\system\Database\MySQLi\Connection.php(185): mysqli->real_connect()
+#1 C:\Program Files\Ampps\www\ci-oldalam\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Program Files\Ampps\www\ci-oldalam\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Program Files\Ampps\www\ci-oldalam\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Program Files\Ampps\www\ci-oldalam\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\www\ci-oldalam\system\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 C:\Program Files\Ampps\www\ci-oldalam\app\Controllers\Animals.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\www\ci-oldalam\system\CodeIgniter.php(943): App\Controllers\Animals->index()
+#8 C:\Program Files\Ampps\www\ci-oldalam\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#9 C:\Program Files\Ampps\www\ci-oldalam\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Program Files\Ampps\www\ci-oldalam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nem hozható létre kapcsolat, mert a célszámítógép már visszautasította a kapcsolatot.
+ in C:\Program Files\Ampps\www\ci-oldalam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Program Files\Ampps\www\ci-oldalam\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Program Files\Ampps\www\ci-oldalam\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Program Files\Ampps\www\ci-oldalam\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Program Files\Ampps\www\ci-oldalam\system\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Program Files\Ampps\www\ci-oldalam\system\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 C:\Program Files\Ampps\www\ci-oldalam\app\Controllers\Animals.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\Program Files\Ampps\www\ci-oldalam\system\CodeIgniter.php(943): App\Controllers\Animals->index()
+#7 C:\Program Files\Ampps\www\ci-oldalam\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+#8 C:\Program Files\Ampps\www\ci-oldalam\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Program Files\Ampps\www\ci-oldalam\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-05 14:13:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Nem hozható létre kapcsolat, mert a célszámítógép már visszautasította a kapcsolatot.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH\Controllers\Animals.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Animals->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,194 @@
+    *{
+    margin-top: 0;
+    color: #291841
+}
+
+@font-face 
+{
+    font-family: 'Carattere';
+    src: url(Carattere-Regular.ttf);
+}
+
+body
+{
+    margin: 0;
+    padding: 0px;
+    font-size: 40px;
+    font-family: 'Carattere', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: #291841;
+    background-color: #CAD5CA;
+}
+header
+{
+    background: #b393ab;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav a
+{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none; 
+    color: #412766;
+}
+
+img
+{
+    padding: 20px;
+}
+a
+{
+    text-decoration: none;
+    color: #412766;
+    transition: 0.3s;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.container
+{
+    display: flex;
+   
+    margin: auto;
+}
+main, aside
+{
+ margin: 25px;
+}
+main
+{ 
+  width: 60%;
+  padding-top: 20px;
+}
+aside
+{
+  width: 40%;
+}
+aside section
+{
+padding: 25px;
+margin-bottom: 25px;
+border-color: #1d302d;
+border: solid;
+border-style: double;
+background-color: #b393ab;
+}
+
+footer
+{
+	background: #b393ab;
+	padding: 50px;
+	text-align: center;
+}
+
+table
+{
+   border-collapse: collapse; 
+   margin: 50px;
+   padding: 50px;
+   text-align: center;
+}
+
+thead
+{
+  background-color: #b393ab
+}
+th, td
+{
+    border-bottom: 1px solid #b393ab;
+    padding: 10px 20px;
+    text-align: center;
+}  
+tr
+{
+    font-size: 120%;
+    text-align: center;
+}
+
+form div
+{
+	margin-bottom: 15px;
+}
+form div:not(.check) label
+{
+	display: block;
+	margin-bottom: 2px;
+}
+form div:not(.check) input,
+form select,
+form textarea
+{
+	border: 1px solid #ddd;
+	background: #f4f4f4;
+	padding: 8px 15px;
+	width: 100%;
+	box-sizing: border-box;
+	max-width: 350px;
+	outline: none;
+}
+form textarea
+{
+	resize: vertical;
+	min-height: 250px;
+	max-width: 700px;
+}
+form div:not(.check) input:focus,
+form select:focus,
+form textarea:focus
+{
+	border: 1px solid #aaa;
+}
+form input, form select
+{
+height: 50px;
+font-size: 25px;
+text-align: center;
+}
+form input[type="submit"]
+{
+	border: 0;
+	background: #968993;
+	color: #291841;
+	text-transform: uppercase;
+	padding: 10px 20px;
+        margin: 20px;
+	cursor: pointer;
+}
+form input[type="submit"]:hover
+{
+	background: #b393ab;
+}
+input[type="checkbox"] 
+{
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+    height: 25px;
+    width: 25px;
+}
+.error
+{
+	background: #fff0f0;
+	color: #a24848;
+	border: 1px solid #e89696;
+	padding: 20px;
+        max-width: 800px;
+        margin: auto;
+}
+

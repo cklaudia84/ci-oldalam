@@ -1,0 +1,54 @@
+CRITICAL - 2024-04-04 08:18:00 --> ParseError: syntax error, unexpected ')', expecting ']'
+in APPPATH\Controllers\Contact.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 08:23:36 --> ErrorException: Undefined variable: error
+in APPPATH\Views\contact-form.php on line 3.
+ 1 APPPATH\Views\contact-form.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Program Files\\Ampps\\www\\ci-oldalam\\app\\Views\\contact-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Contact.php(18): view()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 08:24:21 --> ErrorException: Undefined variable: error
+in APPPATH\Views\contact-form.php on line 3.
+ 1 APPPATH\Views\contact-form.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Program Files\\Ampps\\www\\ci-oldalam\\app\\Views\\contact-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Contact.php(18): view()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 08:25:44 --> ErrorException: Undefined variable: error
+in APPPATH\Views\contact-form.php on line 3.
+ 1 APPPATH\Views\contact-form.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Program Files\\Ampps\\www\\ci-oldalam\\app\\Views\\contact-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Contact.php(18): view()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 08:26:26 --> ErrorException: Undefined variable: error
+in APPPATH\Views\contact-form.php on line 3.
+ 1 APPPATH\Views\contact-form.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Program Files\\Ampps\\www\\ci-oldalam\\app\\Views\\contact-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Contact.php(18): view()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Contact->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

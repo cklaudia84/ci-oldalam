@@ -1,0 +1,105 @@
+CRITICAL - 2024-03-29 07:50:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Hellóóó.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(9): view()
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:01:19 --> Error: Call to a member function findAll() on string
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 15:02:28 --> Error: Class 'Codeigniter\Model' not found
+in APPPATH\Models\AnimalsModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH\Config\Factories.php(280): class_exists()
+ 7 SYSTEMPATH\Config\Factories.php(199): CodeIgniter\Config\Factories::locateClass()
+ 8 SYSTEMPATH\Config\Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance()
+ 9 SYSTEMPATH\Common.php(813): CodeIgniter\Config\Factories::__callStatic()
+10 APPPATH\Controllers\Home.php(10): model()
+11 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 17:57:19 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 19:28:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(13): view()
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 19:31:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(13): view()
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 19:31:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(13): view()
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:14:55 --> Error: Class 'HomeModel' not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:15:42 --> ParseError: syntax error, unexpected '(', expecting '{'
+in APPPATH\Models\HomeModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH\Controllers\Home.php(9): spl_autoload_call()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:16:02 --> ParseError: syntax error, unexpected ''text'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Models\HomeModel.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH\Controllers\Home.php(9): spl_autoload_call()
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:39:19 --> ErrorException: Undefined variable: animals
+in APPPATH\Views\templates\animals.php on line 2.
+ 1 APPPATH\Views\templates\animals.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Program Files\\Ampps\\www\\ci-oldalam\\app\\Views\\templates\\animals.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Home->animals()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
